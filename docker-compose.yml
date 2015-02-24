@@ -1,0 +1,4 @@
+frontend:
+  build: .
+  volumes:
+    - '/srv/pmzxj.com/dist:/pmzxj/dist'

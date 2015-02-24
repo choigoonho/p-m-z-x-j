@@ -101,3 +101,5 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['tpl', 'copy', 'connect', 'watch']);
+
+gulp.task('build', ['tpl', 'copy']);
